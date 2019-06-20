@@ -1,0 +1,56 @@
+/* pages/myCenter/index.wxss */
+.infohead{
+  width: 100%;
+  height: 300rpx;
+  background: rgb(245, 241, 241);
+}
+.infoHeadImg{
+  display: inline-block;
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 65rpx;
+  margin: 0rpx 20rpx;
+  background: rgba(196, 195, 195, 0.795);
+  /* border: 1rpx wheat solid; */
+}
+.userInfoImg_name{
+  position: absolute;
+  margin-top: 80rpx;
+  display: flex;
+  justify-content: center;
+
+}
+.infoNickname{
+  display: inline-block;
+  margin-top: 20rpx;
+  color: rgb(10, 10, 10);
+  font-size: 33rpx;
+}
+
+.btnLoginC{
+  display: inline-block;
+  margin-left: 170rpx;
+  width: 50%;
+  margin-top: 80rpx;
+  border-radius: 0rpx;
+  background-color:  inherit;
+  color: rgb(12, 12, 12);
+  text-align: left;
+  font-size: 40rpx;
+  font-weight: 20rpx;
+}
+.btnLoginC::after {
+  border: 0; 
+}
+.userCardInfo{
+  display: flex;
+  justify-content: center;
+
+}
+.userCardInfo myGridlab_lab{
+  width: 33%;
+  height: 60rpx;
+}
+.userServiceList{
+  margin-top: 60rpx;
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "DrSearch":"../../common/templates/DrSearch",
+    "listItem": "../../templates/listItem"
+  }
+}

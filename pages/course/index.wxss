@@ -1,0 +1,75 @@
+/* pages/course/index.wxss */
+.headSearch{
+margin-top: 0rpx;
+height: 80rpx;
+}
+.swiper{
+  position: relative;
+  margin-top: 20rpx;
+  width: 100%;
+  height: 300rpx;
+}
+.wiper-itemIn{
+  width: 92%;
+  height: 300rpx;
+  margin-left: 4%;
+}
+.grids_d
+{
+  position: relative;
+  box-sizing: border-box;
+  border: none;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.grid_d{
+  border: none;
+  width: 24%;
+  padding-top: 10px;
+  float: left;
+  margin-top: 20px;
+}
+/* 列表sectionList--采用flex布局方式 */
+.sectionList{
+  margin-top: 40rpx;
+}
+.sectionHeader{
+  padding-left: 30rpx;
+  height: 60rpx;
+  text-align: left;
+  font-size: 32rpx;
+  color: black;
+  line-height: 60rpx;
+  background-color: rgba(243, 244, 245, 0.918);
+}
+.sectionCell{
+  /* display: flex; */
+  height: 200rpx;
+  width: 100%;
+  margin-top: 20px;
+  
+}
+.sectionListCellImg{
+  position: absolute;
+  margin-left: 5px;
+  vertical-align: middle;
+  width:200rpx;
+  height: 110rpx;
+}
+.sectionListCellRight{
+  /* display: flex; */
+  height: 100%;
+  margin-left: 220rpx;
+  margin-right: 0rpx;
+  overflow: hidden;
+}
+.sectionCellTitle{
+  /* position: absolute;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px; */
+  height: 40rpx;
+  color: #999999;
+  font-size: 14px;
+  overflow: hidden;
+}

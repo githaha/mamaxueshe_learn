@@ -1,0 +1,4 @@
+<view class='container'>
+  <label class='titleUp'>{{titleUp}}</label>
+  <label class='titleDown'>{{titleDown}}</label>
+</view>

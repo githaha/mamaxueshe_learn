@@ -1,0 +1,24 @@
+
+.container{
+  display: flex;
+  width:100%;
+  height: 100%; 
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.imageUp{
+  width: 60%;
+  height: 60%;
+  margin: 5% 20% 5%;
+  background: lightblue;
+  font-size: 28rpx;
+}
+.titleDown{
+  width: 100%;
+  height: 30%;
+  font-size: 24rpx;
+  text-align: center;
+  line-height: 100%;
+  color: rgb(22, 21, 21);
+}

@@ -1,0 +1,114 @@
+/* pages/course/courseDetail/courseDeatil.wxss */
+.courseDetailHead{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400rpx;
+  background-color: white;
+}
+.btnShare{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40rpx;
+  margin-left: calc(100% - 180rpx);
+  width: 140rpx;
+  height: 140rpx;
+  background-color: white;
+}
+.btnShare image{
+  display: inline-block;
+  width: 60rpx;
+  height: 60rpx;
+}
+.btnShare label{
+  padding: 0;
+  font-size: 18rpx;
+  color: rgb(119, 118, 118);
+}
+.btnShare::after{
+  border: none;
+}
+.courseDetailHeadImg{
+  margin-top: 30rpx;
+  width: 94%;
+  height: 360rpx;
+  border-radius: 10rpx;
+}
+.courseDetailDesc{
+  display: flex;
+  margin: 20rpx 3%;
+  flex-direction: column;
+  /* background-color: lightblue; */
+  width: 94%;
+  height: 240rpx;
+}
+.courseDetailDesc_title{
+  margin-left: 5rpx; 
+  color:black;
+  font-size: 32rpx;
+}
+.courseDetailDesc_subTitle{
+  margin: 10rpx 5rpx 10rpx; 
+  color:#999999;
+  font-size: 25rpx;
+}
+.courseDetailDesc_learnViewPrice{
+  margin: 0rpx 25rpx 5rpx 5rpx; 
+  color:#6183e0;
+  font-size: 36rpx; 
+}
+.courseDetailDesc_learnViewLearning{
+  color:#999999;
+  font-size: 25rpx;
+}
+.courseDetailDesc_learnViewLearnsIcons{
+  display: flex;
+  flex-direction: row;
+  height: 30rpx;
+  align-items: center;
+  justify-content: center;
+}
+.courseDetailDesc_learnViewLearnsIcon{
+  width: 24rpx;
+  height: 24rpx;
+  margin-left: -5rpx;
+  border-radius: 12rpx;
+}
+.courseHeader{
+  display: flex;
+  width: 100%;
+  height: 80rpx;
+  background-color: rgb(218, 221, 63);
+}
+.section-cell{
+  height: 80rpx;
+  width: 100%;
+  /* background-color: gold; */
+  border-bottom: lightblue 1rpx solid;
+}
+.section-placeholder {
+  background-color: white;
+}
+
+.section-fixed {
+  position: fixed;
+  top: 0;
+}
+.headerLeft{
+  width: 50%;
+  height: 80rpx;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 80rpx;
+}
+.headerRight{
+ width: 50%;
+  height: 100%;
+  background-color: lightcoral;
+  text-align: center;
+  line-height: 80rpx;
+}

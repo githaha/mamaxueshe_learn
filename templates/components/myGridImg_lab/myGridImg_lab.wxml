@@ -1,0 +1,4 @@
+<view class='container'>
+  <image class='imageUp' mode='scaleToFill' src='{{imgSrc}}' ></image>
+  <label class='titleDown'>{{title}}</label>
+</view>

@@ -1,0 +1,27 @@
+<view class="infohead">
+  <view class='userInfoImg_name'>
+  <!-- 用户头像，昵称 -->
+    <image class='infoHeadImg' src='{{userInfo.avatarUrl}}'/>
+    <label hidden='{{userInfo==null?true:false}}' class='infoNickname'>{{userInfo.nickName}}</label>
+    
+  </view>
+     <button class='btnLoginC' hidden='{{userInfo==null?false:true}}' open-type='getUserInfo' bindgetuserinfo="onGotUserInfo">点击登录</button>
+</view>
+<view class='userCardInfo'>
+  <myGridlab_lab titleUp="0" titleDown="积分"/>
+  <myGridlab_lab titleUp="0" titleDown="会员卡"/>
+  <myGridlab_lab titleUp="0" titleDown="优惠券"/>
+</view>
+<view class='userServiceList'>
+<i-cell-group>
+  <i-panel>
+    <i-cell title="我的课程" is-link value=""/>
+  </i-panel>
+<i-panel >
+  <i-cell title="我的优惠券" is-link value=""/>
+  </i-panel>
+  <i-panel >
+    <i-cell title="我的订单" is-link value=""/>
+  </i-panel>
+  </i-cell-group>
+</view>

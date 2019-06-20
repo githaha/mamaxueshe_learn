@@ -1,0 +1,66 @@
+/* templates/listItem.wxss */
+/* 列表sectionList--采用flex布局方式 */
+
+.sectionCell{
+  display: flex;
+  height: 200rpx;
+  width: 100%;
+  border-bottom: solid rgba(241, 241, 241, 0.993) 1px;
+  
+}
+.sectionListCellImg{
+  margin-left: 8px;
+  vertical-align: middle;
+  width:240rpx;
+  height: 160rpx;
+  margin-top: 10px;
+}
+.sectionListCellRight{
+  height: calc(100%-20rpx);
+  width: calc(100%-10rpx);
+  margin: 10rpx;
+  overflow: hidden;
+  /* background-color: lightblue; */
+}
+.sectionCellTitle{
+  display: inline-block;
+  vertical-align: text-top;
+  width: 100%;
+  height: 30%;
+  color: #2b2828;
+  font-size: 32rpx;
+  overflow: hidden;
+  text-indent:0.2em;
+  /* background: rgb(136, 90, 90); */
+}
+.sectionCellTitleSub{
+  display: inline-block;
+  vertical-align: text-top;
+  width: 100%;
+  height: 30%;
+  color: #5a5858;
+  font-size: 28rpx;
+  overflow: hidden;
+  text-indent:0.2em;
+}
+.sectionCellSubBot{
+  display: flex;
+  width: 100%;
+  height: 40%;
+  color: #555151;
+  font-size: 25rpx;
+  overflow: hidden;
+}
+.itemAuthor{
+  margin-top: 20rpx;
+  margin-left: 15rpx;
+  font-size: 24rpx;
+}
+.itemLine{
+  margin: 20rpx 10rpx 0rpx;
+  color: rgba(209, 206, 206, 0.979);
+}
+.itemCount{
+  margin-top: 20rpx;
+  font-size: 24rpx;
+}

@@ -1,0 +1,19 @@
+<!--templates/listItem.wxml-->
+<view class='sectionCell'>
+<view>
+<image class='sectionListCellImg' src="../common/images/{{imgIcon}}" bindtap='ontapImg'></image>
+</view>
+
+<view class='sectionListCellRight'>
+<label class='sectionCellTitle'>{{courseTitle}}</label>
+<label class='sectionCellTitleSub'>{{courseTitleSub}}</label>
+
+<view class='sectionCellSubBot'>
+<label class='itemAuthor'>主讲:{{auhor}}</label>
+<label class='itemLine'>|</label>
+<label class='itemCount'>{{learnCount}}人正在学习</label>
+</view>
+
+</view>
+
+</view>

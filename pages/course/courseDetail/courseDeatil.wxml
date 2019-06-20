@@ -1,0 +1,36 @@
+<!-- 头部 -->
+<view class="courseDetailHead">
+  <image class='courseDetailHeadImg' src='../../../common/images/5.jpg'></image>
+</view>
+<!-- 书标题 -->
+<view class='courseDetailDesc'>
+  <button open-type='share' class='btnShare'>
+    <image src='/common/icons/calendar.jpg'></image>
+    <label>分享好友</label>
+  </button>
+  <!-- <myGridlab_lab class="btnShare" imgSrc="/common/icons/calendar.jpg" title="分享好友" bindtap="btnShare"/> -->
+  <label class="courseDetailDesc_title">读书计划-成长路上必读的48本心理学书</label>
+  <label class="courseDetailDesc_subTitle">张万里 | 共48期</label>
+  <view class="courseDetailDesc_learnView">
+    <label class="courseDetailDesc_learnViewPrice">￥99.00</label>
+    <block class='courseDetailDesc_learnViewLearnsIcons' wx:for="{{arrListLearns}}" wx:key="item">
+      <image src="../../../common/icons/{{item}}.jpg"class='courseDetailDesc_learnViewLearnsIcon'></image>
+    </block>
+    <label class="courseDetailDesc_learnViewLearning">336人正在学习</label>
+  </view>
+
+</view>
+<view class="{{fixed ? 'courseHeader section-fixed':'courseHeader'}}">
+<view class='headerLeft' bindtap='clickHeaderLeft'>课程简介</view>
+<view class='headerRight' bindtap='clickHeaderRight'>课程目录</view>
+</view>
+<view hidden='{{!fixed}}' class="courseHeader section-placeholder"></view> 
+<view class='courseSub'>
+  <view hidden='{{showCourseList}}'>
+  <block wx:for="{{courseList}}" wx:key="{{item}}">
+  <view class='section-cell'>{{item.index + item.title}}</view>
+  </block>
+  </view>
+  <view hidden='{{!showCourseList}}'>{{courseDetail}}</view>
+</view>
+<!-- contentViewTitle -->

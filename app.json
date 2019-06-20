@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/course/index",
+    "pages/myCenter/index",
+    "pages/course/courseDetail/courseDeatil"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f0979d",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/course/index",
+        "text": "精选好课",
+        "iconPath": "./common/icons/book_n.png",
+        "selectedIconPath": "./common/icons/book_s.png"
+      },
+      {
+        "pagePath": "pages/myCenter/index",
+        "text": "我的",
+        "iconPath": "./common/icons/mine_n.png",
+        "selectedIconPath": "./common/icons/mine_s.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

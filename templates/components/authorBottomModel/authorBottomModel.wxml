@@ -1,0 +1,3 @@
+<view class='modelMark'  bindtap="hideModal" wx:if="{{showModelStatus}}">
+  <view class='modelContent' animation="{{animationData}}"  wx:if="{{showModelStatus}}"></view>
+</view>

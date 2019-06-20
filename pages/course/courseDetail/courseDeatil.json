@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "myGridlab_lab": "../../../templates/components/myGridImg_lab/myGridImg_lab"
+  }
+}

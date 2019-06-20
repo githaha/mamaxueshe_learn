@@ -1,0 +1,34 @@
+<view class='headSearch'>
+  <DrSearch placeholder="搜索课程名称"></DrSearch>
+</view>
+<swiper class='swiper' indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}"
+  interval="{{interval}}"
+  duration="{{duration}}"
+  circular="{{circular}}"
+  >
+  <block wx:for="{{swiperImgs}}" wx:key="*this">
+      <swiper-item>
+        <image wx:if="{{item}}" src="{{item}}" class='slide-image wiper-itemIn' ></image>
+      </swiper-item>
+  </block>
+</swiper>
+
+<view class="grids_d">
+    <block wx:for="{{courseItems}}" wx:key="item.name" >
+    <navigator url='' class='grid_d' hover-class='weui-grid_active'>
+    <image class='weui-grid__icon' src="../../common/icons/{{item.icon}}"></image>
+    <view class='weui-grid__label'>{{item.name}}</view>
+    </navigator>
+    </block>
+</view>
+<!-- 课程列表 -->
+<view class='sectionList'>
+  <view class='sectionHeader'>猜你喜欢</view>
+  <block class='weui-cells' wx:for="{{sectionList}}" wx:key="{{item.name}}">
+<navigator url='/pages/course/courseDetail/courseDeatil'>
+  <listItem  courseTitle = "{{item.title}}" courseTitleSub="{{item.subTitle}}" imgIcon = "{{item.img}}" auhor="{{item.auhor}}" learnCount="{{item.learnCount}}" bind:tapListItemImg="taplezidingye"> 
+  </listItem></navigator>
+  </block>
+  </view>
+

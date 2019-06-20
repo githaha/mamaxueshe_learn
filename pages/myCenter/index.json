@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "myGridlab_lab":"../../templates/components/myGridlab_Lab/myGridLab_lab",
+    "i-cell-group": "../../templates/dist/cell-group/index",
+    "i-cell": "../../templates/dist/cell/index",
+    "i-panel": "../../templates/dist/panel/index",
+    "i-icon": "../../templates/dist/icon/index"
+  }
+  
+
+}
